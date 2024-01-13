@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+    font-size: 130%;
+}
+
+p {
+    color: green;
+    font-size: 20px;
+    width: 200px;
+}
+
+h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid rgb(220, 90, 20);
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+a:hover, a:active {
+    background-color: red;
+    color: purple;
+}
+
+li:nth-child(2) {
+    font-size: 24px;
+}
